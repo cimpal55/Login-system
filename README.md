@@ -10,7 +10,7 @@
 ## Izmantotās tehnoloģijas
 	- C++
 	- ?
-  - ?
+  	- ?
 ## Izmantotie avoti
 	- ?
-  - ?
+  	- ?
