@@ -6,7 +6,7 @@
 	- Reģistrēties
 	- Pieteikties
 	- Izmantojiet datus no faila
-  - Salīdziniet, vai dati ir ievadīti pareizi
+  	- Salīdziniet, vai dati ir ievadīti pareizi
 ## Izmantotās tehnoloģijas
 	- C++
 	- ?
