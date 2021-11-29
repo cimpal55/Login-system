@@ -1,0 +1,16 @@
+﻿  login-system.cpp
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(12,18): warning C4566: символ, представленный универсальным именем символа "\u013C", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(30,18): warning C4566: символ, представленный универсальным именем символа "\u012B", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(31,18): warning C4566: символ, представленный универсальным именем символа "\u0101", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(38,26): warning C4566: символ, представленный универсальным именем символа "\u016B", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(38,26): warning C4566: символ, представленный универсальным именем символа "\u0101", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(38,26): warning C4566: символ, представленный универсальным именем символа "\u0113", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(42,26): warning C4566: символ, представленный универсальным именем символа "\u016B", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(42,26): warning C4566: символ, представленный универсальным именем символа "\u0113", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(42,26): warning C4566: символ, представленный универсальным именем символа "\u0123", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(49,22): warning C4566: символ, представленный универсальным именем символа "\u0100", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(52,22): warning C4566: символ, представленный универсальным именем символа "\u013C", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(60,22): warning C4566: символ, представленный универсальным именем символа "\u0101", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(60,22): warning C4566: символ, представленный универсальным именем символа "\u012B", невозможно представить в текущей кодовой странице (1251)
+C:\Users\dungeon master\source\repos\login-system\login-system\login-system.cpp(60,22): warning C4566: символ, представленный универсальным именем символа "\u0113", невозможно представить в текущей кодовой странице (1251)
+  login-system.vcxproj -> C:\Users\dungeon master\source\repos\login-system\Debug\login-system.exe
