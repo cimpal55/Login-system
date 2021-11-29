@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <fstream>
 #include <string>
+#include <Windows.h>
 
 bool isLogged() {
     std::string login, password, storedlogin, storedpassword;
@@ -9,7 +10,7 @@ bool isLogged() {
     std::cout << "IEEJA" << std::endl << "------------------------------" << std::endl;
     std::cout << "Uzraksti loginu: ";
     std::cin >> login;
-    std::cout << "Uzraksti paroļu: ";
+    std::cout << "Uzraksti parolu: ";
     std::cin >> password;
 
     std::ifstream read(login + ".txt");
@@ -27,26 +28,33 @@ bool isLogged() {
 int main() {
     int choice;
     std::cout << "\n*************MENU**********:" << std::endl;
-    std::cout << "Ko jus grībetu izdarīt?" << std::endl;
-    std::cout << "\nIzvelejaties vienu opciju:\n1. Autorizācija\n2. Registrācija\nLai iziet, uzraksti \"exit\"\n";
+    std::cout << "Ko jus gribetu izdarit?" << std::endl;
+    std::cout << "\nIzvelejaties vienu opciju:\n1. Autorizacija\n2. Registracija\nLai iziet, uzspiez jebkuru taustinu\n";
     std::cin >> choice;
 
     if (choice == 1) {
+        system("cls");
         bool status = isLogged();
 
         if (status) {
-            std::cout << "Jūs ieejāt sistēmā." << std::endl;
+            std::cout << " ----------------------------------------------------------------------" << std::endl;
+            std::cout << "|                      Jus ieejat sistema.                             |" << std::endl;
+            std::cout << " ----------------------------------------------------------------------" << std::endl;
+            Sleep(2000);
             return 1;
         }
         else {
-            std::cout << "Nepareizs parolis vai logins. Lūdzu pamēģinajiet vēlreiz." << std::endl;
+            std:: cout << std::endl;
+            std::cout << "Nepareizs parolis vai logins. Ludzu pameginajiet velreiz." << std::endl;
+            Sleep(2000);
             main();
         }
     }
     else if (choice == 2) {
+        system("cls");
         std::string login, password;
         std::cout << "\n\n";
-        std::cout << "REGISTRĀCIJA" << std::endl << "------------------------------" << std::endl;
+        std::cout << "REGISTRACIJA" << std::endl << "------------------------------" << std::endl;
         std::cout << "Uzraksti loginu: ";
         std::cin >> login;
         std::cout << "Uzraksti paroļu: ";
@@ -56,8 +64,13 @@ int main() {
         read << login << std::endl << password;
         read.close();
 
+        system("cls");
         std::cout << "\n\n";
-        std::cout << "Registrācija ir izpildīta. Jus varētu jāiet ar savu loginu un paroli" << std::endl;
+        std::cout << " --------------------------------------------------------------------" << std::endl;
+        std::cout << "|Registracija ir izpildita. Jus varetu jaiet ar savu loginu un paroli|"<< std::endl;
+        std::cout << " --------------------------------------------------------------------" << std::endl;
+        Sleep(2000);
+        system("cls");
 
         main();
     }
